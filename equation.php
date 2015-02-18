@@ -1,13 +1,14 @@
 <?php
 /*
-Plugin Name: equation2015
-Plugin URI: http://fyaconiello.github.com/wp-plugin-template
-Description: Wordpress + Codecogs equation editor intergration
-Version: 1.0
+Plugin Name: WP Mathedit
+Plugin URI: http://ditikos.github.io
+Description: LaTeX Mathematic Integration for Tinymce Editor for Wordpress 4.x
+Version: 1.01
 Author: Panagiotis Halatsakos
 Author URI: http://ditikos.github.io
 License: GPL2
 */
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 if (!class_exists('WP_Equation_2015'))
 {
